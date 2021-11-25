@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+  </head>
+  <body>
+   body {
+        background-color: pink;
+      }
+
+      h1 {
+        color: black;
+      }
+      
+      h2 {
+        color: black;
+      }
+
+      h3 {
+        color: black;
+      } 
+      
+    <h1><strong>Introduction to CSS</strong></h1>
+    <p>
+        CSS stands for Cascading Style Sheets. It is the language for describing the presentation of Web pages, including colours, layout, and fonts, thus making our web pages presentable to the users. CSS is designed to make style sheets for the web.
+
+        <br />
+
+        </p>
+    <h2> Let's dissect the CSS Further, in order to understand how it works</h2>
+    <p> 
+        The structure of CSS is called a ruleset or a rule.
+        <br />
+        <br />
+        All the boxes and brackets may be confuding but this is what they mean: 
+        <img
+        src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png"
+        alt="Anatomy of an CSS Rule Set" /*this alt feature helps for accessibilty !please remember to add for a description of an image/*
+
+        <br />
+        <ol>
+            <li>The curly braces and everything inside is a declaration block.</li>
+            <li>The bit before the opening curly brace is a selector.</li>
+            <li>Each key/value pair, as separated by a colon and ending in a semicolon, is a declaration.</li>
+            <li>In those key/value pairs, the key is a property (or property name), and the value is a value (or property value).</li>
+        </ol>
+    </p>
+  
+    <h3>
+        There are countless things to do using CSS that can enhance your webpage. Such as:
+        1) Changing fonts, texts and even the layout. 
+        
+        Note: Anything in CSS between /* and */ is a CSS comment. The browser ignores comments as it renders the code. CSS comments are a way for you to write helpful notes about your code or logic.
+    </h3>
+
+    <br />
+    <br />
+    
+    </body>
+</html>
